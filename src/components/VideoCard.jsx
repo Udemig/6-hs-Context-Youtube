@@ -7,7 +7,7 @@ const VideoCard = ({ video }) => {
       {/* resim kısmı */}
       <div className="relative">
         <img
-          className="rounded-lg"
+          className="rounded-lg w-full"
           src={
             video.thumbnails[1]
               ? video.thumbnails[1].url
